@@ -2,7 +2,8 @@
 
 
 ## Getting started
-...bash
+```bash
+
 # Switch to Packer kit directory.
 $ cd /opt/kickstart-packer
  
@@ -14,7 +15,7 @@ $ packer validate module/ubuntu-linux-24-04/virtualbox/amd64/server/main.pkr.hcl
 
 # Build VM image using Packer template.
 $ packer build --force module/ubuntu-linux-24-04/virtualbox/amd64/server/main.pkr.hcl
-...
+```
 
 
 ## Get support
