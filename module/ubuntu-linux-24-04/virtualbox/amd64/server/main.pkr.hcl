@@ -12,7 +12,6 @@ packer {
 }
 
 source "vagrant" "ubuntu_linux_24_04_vm" {
-  // box_name = "sloopstash-ubuntu-linux-24-04-v1.1.1-box"
   source_path = "bento/ubuntu-24.04"
   provider = "virtualbox"
   skip_add = true
